@@ -17,19 +17,6 @@ container {
     margin: 0 auto; /* Center the container */
     padding: 20px;
 }
-/* Responsive layout using media queries */
-@media screen and (max-width: 768px) {
-    .container {
-        width: 90%; /* Adjust the width for smaller screens */
-        padding: 10px; /* Adjust the padding */
-    }
-}
-@media screen and (max-width:480px) {
-    .container {
-        width: 95%; /* Adjust the width for even smaller screens */
-        padding: 5px; /* Adjust the padding */
-    }
-}
 
 
 
@@ -121,7 +108,23 @@ section {
     border-radius: 5px; /* Rounded corners for gallery images */
 }
 
-
+/* Responsive layout using media queries */
+@media screen and (min-width:768px){
+    header{
+        padding: 30px;
+    }
+    main{
+        padding: 30px;
+    }
+}
+@media screen and(min-width:1024px) {
+    header{
+        padding: 40px;
+    }
+    main{
+        padding: 40px;
+    }
+}
 
 /* Footer Styles */
 footer {
