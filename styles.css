@@ -1,0 +1,132 @@
+/* General Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url("")
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    /* background-color: aqua;  */
+}
+
+container {
+    width: 90%; /* Set a maximum width for your content */
+    max-width: 1200px; /* Adjust this value based on your design needs */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+/* Responsive layout using media queries */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust the width for smaller screens */
+        padding: 10px; /* Adjust the padding */
+    }
+}
+@media screen and (max-width:480px) {
+    .container {
+        width: 95%; /* Adjust the width for even smaller screens */
+        padding: 5px; /* Adjust the padding */
+    }
+}
+
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-menu{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+.main-menu a {
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 30px;
+    text-decoration: none;
+}
+.main-menu ul{
+    list-style-type: none;
+}
+.main-menu li{
+    float: left;
+    padding: 12px 15px;
+}
+.a{
+    text-align: center;
+    font-size: 80px;
+}
+
+
+section {
+    padding: 20px;
+    /* background-color: #fff; */
+     /* White background color for sections */
+    margin-bottom: 20px;
+}
+
+.About{
+    font-family: 'Courier New', Courier, monospace;
+    //
+    line-gap-override: 1.15S;
+}
+
+
+.department{
+    margin-top: 20px;
+}
+.faculty{
+    margin-top: 20px;
+}
+
+.teacher {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.teacher img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%; /* Rounded corners for teacher images */
+}
+
+.teacher h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.teacher p {
+    margin: 0;
+}
+
+#resources h3 {
+    margin-top: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery-image {
+    width: 300 ; 
+    height: 200;/* Adjust image width based on your design */
+    margin-bottom: 30px;
+    border-radius: 5px; /* Rounded corners for gallery images */
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}

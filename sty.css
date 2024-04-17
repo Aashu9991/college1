@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding-right: 5%;
+    background-color:aqua; /* Light gray background color */
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.item{
+    flex: 1;
+    padding: 50px;
+}
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+.About{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    text-decoration: none;
+}
+
+header {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: #fff;
+    padding: 20px;
+}
+.college-info {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: down;
+    align-items: center;
+    background-color: aqua;
+}
+
+.college-logo {
+    width: 500px;
+    height: auto;
+    margin-inline: 20px;
+}
+
+.side-logo {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+section {
+    padding: 20px;
+    background-color:white; /* White background color for sections */
+    margin-bottom: 20px;
+}
+.Gallary{
+    background-color: black;
+}
+.main-menu{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+.main-menu a {
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main-menu li {
+    float: left;
+    padding: 12px 15px ;
+}
+.a{
+    text-align: center;
+}
