@@ -37,7 +37,9 @@ header {
     display: down;
     align-items: center;
     background-color: aqua;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .college-logo {
